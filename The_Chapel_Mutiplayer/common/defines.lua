@@ -225,7 +225,7 @@ NDiplomacy = {
 	PO_WAR_REPARATIONS_PRESTIGE = 2,
 	PO_END_RIVALRY_PRESTIGE = 5,
 
-	PEACE_COST_DEMAND_PROVINCE = 999,					-- Demand a province (scales by province wealth, also used for annex)
+	PEACE_COST_DEMAND_PROVINCE = 200,					-- Demand a province (scales by province wealth, also used for annex)
 	PEACE_COST_CONCEDE_PROVINCE = 1,				-- Demand colonial area province concession.
 	PEACE_COST_BECOME_VASSAL = 1,					-- Vassalize a country (scales by province wealth)
 	PEACE_COST_RETURN_CORE = 1,						-- Return a core (scales by province wealth)
