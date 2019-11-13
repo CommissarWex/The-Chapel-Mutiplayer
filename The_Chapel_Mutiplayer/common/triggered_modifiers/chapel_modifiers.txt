@@ -1,0 +1,32 @@
+limited_colonisation = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		NOT = {
+			OR = {
+				technology_group = western
+				technology_group = eastern
+				tag = ADU
+			}
+		}
+	}
+	global_colonial_growth = -100
+}
+
+too_many_great_power_allys = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		calc_true_if = {
+                    all_ally = {
+                        is_great_power = yes
+                    }
+                    amount = 2
+                }
+	}
+	technology_cost = 0.5
+}
