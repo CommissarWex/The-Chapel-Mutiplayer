@@ -60,6 +60,7 @@ defaults_reform = {
 }
 despotic_monarchy = {
   icon = crown
+   claim_states = yes
   allow_normal_conversion = yes
   legacy_government = yes
   valid_for_new_country = yes
@@ -80,6 +81,7 @@ feudal_monarchy = {
   icon = castle
   allow_normal_conversion = yes
   legacy_government = yes
+  claim_states = yes
   valid_for_new_country = yes
   valid_for_nation_designer = yes
   nation_designer_cost = 0
@@ -102,6 +104,7 @@ feudal_monarchy = {
 }
 administrative_monarchy = {
   icon = paper_with_seal
+  claim_states = yes
   allow_normal_conversion = yes
   legacy_government = yes
   valid_for_new_country = yes
@@ -127,6 +130,7 @@ administrative_monarchy = {
 }
 constitutional_monarchy = {
   icon = constitution
+  claim_states = yes
   allow_normal_conversion = yes
   legacy_government = yes
   valid_for_new_country = yes
@@ -160,7 +164,8 @@ constitutional_monarchy = {
 enlightened_despotism = {
   icon = paper_with_seal_3
   allow_normal_conversion = yes
-  legacy_government = yes
+ claim_states = yes
+ legacy_government = yes
   valid_for_new_country = yes
   valid_for_nation_designer = no
   monarchy = yes
@@ -176,7 +181,9 @@ enlightened_despotism = {
   }
 }
 revolutionary_empire = {
+
   icon = rioting_burning
+	claim_states = yes
   allow_normal_conversion = no
   legacy_government = yes
   valid_for_new_country = no
@@ -194,6 +201,7 @@ revolutionary_empire = {
 }
 merchant_republic = {
   icon = politician
+  claim_states = yes
   allow_normal_conversion = no
   legacy_government = yes
   valid_for_new_country = no
@@ -248,6 +256,7 @@ merchant_republic = {
   }
 }
 venetian_merchant_republic = {
+claim_states = yes
   icon = politician
   allow_normal_conversion = no
   legacy_government = yes
@@ -310,6 +319,7 @@ venetian_merchant_republic = {
   }
 }
 oligarchic_republic = {
+claim_states = yes
   icon = nobleman
   allow_normal_conversion = yes
   legacy_government = yes
@@ -332,6 +342,7 @@ oligarchic_republic = {
   }
 }
 noble_republic = {
+claim_states = yes
   icon = paper_money_map
   allow_normal_conversion = yes
   legacy_government = yes
@@ -352,6 +363,7 @@ noble_republic = {
   }
 }
 administrative_republic = {
+claim_states = yes
   icon = paper_with_seal
   allow_normal_conversion = yes
   legacy_government = yes
@@ -396,6 +408,7 @@ administrative_republic = {
   }
 }
 republican_dictatorship = {
+claim_states = yes
   icon = paper_with_seal_3
   allow_normal_conversion = no
   legacy_government = yes
@@ -439,6 +452,7 @@ republican_dictatorship = {
   }
 }
 constitutional_republic = {
+	claim_states = yes
   icon = constitution
   allow_normal_conversion = yes
   legacy_government = yes
@@ -490,6 +504,7 @@ constitutional_republic = {
   }
 }
 revolutionary_republic = {
+claim_states = yes
   icon = rioting_burning
   allow_normal_conversion = no
   legacy_government = yes
@@ -521,6 +536,7 @@ revolutionary_republic = {
   }
 }
 bureaucratic_despotism = {
+claim_states = yes
   icon = parliament
   allow_normal_conversion = yes
   legacy_government = yes
@@ -539,6 +555,7 @@ bureaucratic_despotism = {
   }
 }
 theocratic_government = {
+claim_states = yes
   icon = religious_leader
   allow_normal_conversion = no
   legacy_government = yes
@@ -567,6 +584,7 @@ theocratic_government = {
   }
 }
 monastic_order_government = {
+claim_states = yes
   icon = reform_soldiers
   allow_normal_conversion = no
   legacy_government = yes
@@ -598,6 +616,7 @@ monastic_order_government = {
   }
 }
 papal_government = {
+claim_states = yes
   icon = pope
   allow_normal_conversion = no
   allow_convert = no
@@ -629,6 +648,7 @@ papal_government = {
   }
 }
 steppe_horde_legacy = {
+claim_states = yes
   icon = tribal_council
   legacy_government = yes
   valid_for_new_country = yes
@@ -658,6 +678,7 @@ steppe_horde_legacy = {
   }
 }
 great_mongol_state_legacy = {
+claim_states = yes
   icon = tribal_council
   legacy_government = yes
   valid_for_new_country = yes
@@ -688,6 +709,7 @@ great_mongol_state_legacy = {
   }
 }
 tribal_despotism_legacy = {
+claim_states = yes
   icon = king_2
   legacy_government = yes
   valid_for_new_country = yes
@@ -709,6 +731,7 @@ tribal_despotism_legacy = {
   }
 }
 tribal_kingdom_legacy = {
+claim_states = yes
   icon = shaman
   legacy_government = yes
   valid_for_new_country = yes
@@ -729,6 +752,7 @@ tribal_kingdom_legacy = {
   }
 }
 tribal_federation_legacy = {
+claim_states = yes
   icon = soldiers_2
   allow_normal_conversion = no
   legacy_government = yes
@@ -757,6 +781,7 @@ tribal_federation_legacy = {
   }
 }
 tribal_democracy_legacy = {
+claim_states = yes
   icon = assembly_hall
   allow_normal_conversion = no
   legacy_government = yes
@@ -776,6 +801,7 @@ tribal_democracy_legacy = {
   }
 }
 native_council_legacy = {
+claim_states = yes
   icon = shaman
   allow_normal_conversion = no
   legacy_government = yes
@@ -810,6 +836,7 @@ native_council_legacy = {
   }
 }
 siberian_native_council = {
+claim_states = yes
   icon = shaman
   allow_normal_conversion = no
   legacy_government = yes
@@ -829,6 +856,7 @@ siberian_native_council = {
   }
 }
 english_monarchy_legacy = {
+claim_states = yes
   icon = british_queen
   allow_normal_conversion = no
   legacy_government = yes
@@ -858,6 +886,7 @@ english_monarchy_legacy = {
   }
 }
 mamluk_government_legacy = {
+claim_states = yes
   icon = muslim
   allow_normal_conversion = no
   legacy_government = yes
@@ -890,6 +919,7 @@ mamluk_government_legacy = {
   }
 }
 feudal_theocracy_legacy = {
+claim_states = yes
   icon = muslim
   allow_normal_conversion = no
   legacy_government = yes
@@ -917,6 +947,7 @@ feudal_theocracy_legacy = {
   }
 }
 elective_monarchy_legacy = {
+claim_states = yes
   allow_normal_conversion = no
   legacy_government = yes
   icon = crown
@@ -945,6 +976,7 @@ elective_monarchy_legacy = {
   }
 }
 imperial_city = {
+claim_states = yes
   icon = judge
   allow_normal_conversion = no
   legacy_government = yes
@@ -977,6 +1009,7 @@ imperial_city = {
   }
 }
 trading_city_legacy = {
+claim_states = yes
   icon = judge
   allow_normal_conversion = no
   legacy_government = yes
@@ -1030,6 +1063,7 @@ trading_city_legacy = {
   }
 }
 ambrosian_republic_legacy = {
+claim_states = yes
   icon = judge
   allow_normal_conversion = no
   legacy_government = yes
@@ -1053,6 +1087,7 @@ ambrosian_republic_legacy = {
   }
 }
 dutch_republic_legacy = {
+claim_states = yes
   icon = dutch_flag
   allow_normal_conversion = no
   legacy_government = yes
@@ -1096,6 +1131,7 @@ dutch_republic_legacy = {
   }
 }
 celestial_empire_legacy = {
+claim_states = yes
   allow_normal_conversion = no
   legacy_government = yes
   monarchy = yes
@@ -1140,6 +1176,7 @@ celestial_empire_legacy = {
   }
 }
 ottoman_government_legacy = {
+claim_states = yes
   allow_normal_conversion = no
   icon = crown
   legacy_government = yes
@@ -1170,6 +1207,7 @@ ottoman_government_legacy = {
   }
 }
 prussian_monarchy_legacy = {
+claim_states = yes
   allow_normal_conversion = no
   icon = crown
   legacy_government = yes
@@ -1197,6 +1235,7 @@ prussian_monarchy_legacy = {
   }
 }
 iqta_legacy = {
+claim_states = yes
   allow_normal_conversion = no
   icon = muslim
   legacy_government = yes
@@ -1228,6 +1267,7 @@ iqta_legacy = {
   }
 }
 daimyo_legacy = {
+claim_states = yes
   icon = crown
   legacy_government = yes
   allow_normal_conversion = no
@@ -1254,6 +1294,7 @@ daimyo_legacy = {
   }
 }
 indian_sultanate_legacy = {
+claim_states = yes
   icon = crown
   legacy_government = yes
   allow_normal_conversion = no
@@ -1284,6 +1325,7 @@ indian_sultanate_legacy = {
   }
 }
 shogunate_legacy = {
+claim_states = yes
   icon = crown
   legacy_government = yes
   allow_normal_conversion = no
@@ -1315,6 +1357,7 @@ shogunate_legacy = {
   }
 }
 indep_daimyo_legacy = {
+claim_states = yes
   icon = crown
   legacy_government = yes
   allow_normal_conversion = no
@@ -1341,6 +1384,7 @@ indep_daimyo_legacy = {
   }
 }
 colonial_government_legacy = {
+claim_states = yes
   icon = peasants
   legacy_government = yes
   allow_normal_conversion = no
@@ -1363,6 +1407,7 @@ colonial_government_legacy = {
   }
 }
 american_republic_legacy = {
+claim_states = yes
   icon = constitution
   legacy_government = yes
   duration = 4
@@ -1394,6 +1439,7 @@ american_republic_legacy = {
   }
 }
 federal_republic_legacy = {
+claim_states = yes
   icon = parliament
   legacy_government = yes
   duration = 4
@@ -1425,6 +1471,7 @@ federal_republic_legacy = {
   }
 }
 peasants_republic_legacy = {
+claim_states = yes
   icon = fist_in_air
   legacy_government = yes
   allow_normal_conversion = no
@@ -1447,6 +1494,7 @@ peasants_republic_legacy = {
   }
 }
 veche_republic_legacy = {
+claim_states = yes
   icon = merchant
   legacy_government = yes
   republic = yes
@@ -1567,6 +1615,7 @@ veche_republic_legacy = {
   }
 }
 principality_legacy = {
+claim_states = yes
   icon = crown
   legacy_government = yes
   monarchy = yes
