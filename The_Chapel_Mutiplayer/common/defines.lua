@@ -272,7 +272,7 @@ NDiplomacy = {
 	ALLY_PEACE_COST_MULT = 2,						-- Taking things from allies that are not fully called into the war costs this much more
 	ALLY_AE_MULT = 1.5,								-- Taking things from allies that are not fully called into the war generates this much more AE
 
-	ANNEX_DIP_COST_PER_DEVELOPMENT = 8,			-- per development
+	ANNEX_DIP_COST_PER_DEVELOPMENT = 999,			-- per development
 
 	DEFENDER_AE_MULT = 0.75, 					-- _DDEF_DEFENDER_AE_MULT_ (Infamy multiplied by this for defenders in peace treaties, unless the CB is "mutual" )
 	PO_REVOKE_REFORM_PRESTIGE = 10, 				-- _DDEF_PO_REVOKE_REFORM_PRESTIGE_
@@ -283,8 +283,8 @@ NDiplomacy = {
 	IMPROVE_RELATION_SPEED = 1,						-- IMPROVE_RELATION_SPEED
 	STABHIT_FOR_BREAKING_ALLIANCE_IN_WAR = 2,
 	WARGOAL_PEACE_FRACTION = 0.66,					-- Fraction of warscore you need for wargoal
-	CLAIM_PEACE_COST_DIP_FRACTION = -0.1,			-- Fraction of dipcost you pay for claims
-	CORE_PEACE_COST_DIP_FRACTION = -0.2,			-- Fraction of dipcost you pay for cores
+	CLAIM_PEACE_COST_DIP_FRACTION = -0.9,			-- Fraction of dipcost you pay for claims
+	CORE_PEACE_COST_DIP_FRACTION = -1,			-- Fraction of dipcost you pay for cores
 	CANCEL_TRADE_TRANSFER_PRESTIGE_HIT = -5,
 
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
