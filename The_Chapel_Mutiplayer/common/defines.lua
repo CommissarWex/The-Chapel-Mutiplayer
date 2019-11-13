@@ -225,7 +225,7 @@ NDiplomacy = {
 	PO_WAR_REPARATIONS_PRESTIGE = 2,
 	PO_END_RIVALRY_PRESTIGE = 5,
 
-	PEACE_COST_DEMAND_PROVINCE = 1,					-- Demand a province (scales by province wealth, also used for annex)
+	PEACE_COST_DEMAND_PROVINCE = 999,					-- Demand a province (scales by province wealth, also used for annex)
 	PEACE_COST_CONCEDE_PROVINCE = 1,				-- Demand colonial area province concession.
 	PEACE_COST_BECOME_VASSAL = 1,					-- Vassalize a country (scales by province wealth)
 	PEACE_COST_RETURN_CORE = 1,						-- Return a core (scales by province wealth)
@@ -283,8 +283,8 @@ NDiplomacy = {
 	IMPROVE_RELATION_SPEED = 1,						-- IMPROVE_RELATION_SPEED
 	STABHIT_FOR_BREAKING_ALLIANCE_IN_WAR = 2,
 	WARGOAL_PEACE_FRACTION = 0.66,					-- Fraction of warscore you need for wargoal
-	CLAIM_PEACE_COST_DIP_FRACTION = -0.1,			-- Fraction of dipcost you pay for claims
-	CORE_PEACE_COST_DIP_FRACTION = -0.2,			-- Fraction of dipcost you pay for cores
+	CLAIM_PEACE_COST_DIP_FRACTION = -0,			-- Fraction of dipcost you pay for claims
+	CORE_PEACE_COST_DIP_FRACTION = -0,			-- Fraction of dipcost you pay for cores
 	CANCEL_TRADE_TRANSFER_PRESTIGE_HIT = -5,
 
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
